@@ -1,33 +1,33 @@
 # Startup-Success-Fail-Dataset-from-Crunchbase
 
 
-## 📊 Dataset Info
+##  Dataset Info
 
 - Source: [Kaggle - Crunchbase Investments](https://www.kaggle.com/datasets/yanmaksi/big-startup-secsees-fail-dataset-from-crunchbase/data)
 - Format: CSV
 - Fields: company name, status, country, category, funding rounds, total funding, dates, etc.
 
-## 🔒 Data & Code Management
+##  Data & Code Management
 
 - Code tracked on GitHub and backed up on OneDrive
 - Sensitive variables managed using `.env` files (not committed)
 - Processed data stored securely
 
-## 🔗 GitHub Repository
+##  GitHub Repository
 
-GitHub: `https://github.com/AshishKhandekar99/Startup-Success-Fail-Dataset-from-Crunchbase`
+GitHub: (https://github.com/AshishKhandekar99/Startup-Success-Fail-Dataset-from-Crunchbase)
 
-# 🚀 Predicting Startup Success Using Crunchbase Data
+#  Predicting Startup Success Using Crunchbase Data
 
 This project uses machine learning techniques to predict whether a startup will succeed or fail based on Crunchbase data. It is a full-cycle data science project involving data preprocessing, exploratory data analysis, model building, evaluation, and optional deployment.
 
-## 📌 Project Overview
+##  Project Overview
 
 **Objective:** Build a classification model that predicts the success of a startup using attributes such as funding details, location, sector, and more.
 
 **Dataset:** Crunchbase startup dataset (via Kaggle) - Contains ~66,000 startup records with metadata including status, funding rounds, and sector.
 
-## 🧠 Workflow
+##  Workflow
 
 ### 1. Data Cleaning & Preprocessing
 - Remove duplicates and irrelevant fields
@@ -62,7 +62,7 @@ This project uses machine learning techniques to predict whether a startup will 
 - Deploy prediction model using **Streamlit** (optional)
 - Users input startup details and get predicted success probability
 
-## 📚 References
+##  References
 
 - Ravuri & Olsen (2017) – Startup Success Prediction Using Decision Trees and Random Forests
 - Singh et al. (2020) – Startup Success Prediction: A Machine Learning Approach
