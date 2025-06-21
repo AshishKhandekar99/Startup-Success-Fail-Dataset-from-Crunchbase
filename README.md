@@ -50,13 +50,13 @@ This project uses machine learning techniques to predict whether a startup will 
 - **Logistic Regression**
 - **Random Forest**
 - **XGBoost**
+- **SVM**
 - Cross-validation & hyperparameter tuning
 
 ### 5. Model Evaluation
 - Accuracy, Precision, Recall, F1 Score
 - ROC-AUC Score
 - Confusion Matrix
-- Feature importance using SHAP
 
 ### 6. Bonus: Web App Deployment
 - Deploy prediction model using **Streamlit** (optional)
