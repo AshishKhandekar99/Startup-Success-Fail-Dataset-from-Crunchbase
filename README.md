@@ -62,17 +62,21 @@ This project uses machine learning techniques to predict whether a startup will 
 - Deploy prediction model using **Streamlit** 
 - Users input startup details and get predicted success probability
 ### Steps :
+
 **step 1** - install the key libraries manually
 pip install streamlit scikit-learn xgboost shap pandas matplotlib
+
 **step 2** -
 Ensure the following files are in the repository (same folder as the app file unless specified):
 - startup_success_app_scaled.py (Streamlit code)
 - xgb_model_retrained.pkl (trained XGBoost model)
 - scaler.pkl (fitted scaler for preprocessing)
+
 **step 3** -
   Run the Application : 
 Start the Streamlit app with:
 streamlit run startup_success_app_scaled.py
+
 **step 4** -
   Open in Browser : http://localhost:8501
 
